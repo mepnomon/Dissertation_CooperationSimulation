@@ -8,21 +8,21 @@ package Utility;
 public class ExpConstants {
     
     //the size of the population
-    public static final double POPULATION_SIZE = 128;
+    public static final double POPULATION_SIZE = 1024; //129 for groups 4,8,16,32
     //how many rounds the experiment runs for
     public static final int GAME_ROUNDS = 100000;
     //the cost for the public goods game
     //can be set individually through constructor too
-    public static final double COST = 1.75; //used in PGG
+    public static final double COST = 2;
     //the reward for the public goods game
-    public static final double REWARD = 1.9; //used in PGG
+    public static final double REWARD = 1.9;
     //deflection potential for PD
-    public static final double DEFECTION_P = 1.25; // DP > 1 used in PD
+    public static final double DEFECTION_P = 3; // DP > 1 //experiments with 2
     //Epsilon value for PD
-    public static final double EPSILON = 0.01; //used in PD
+    public static final double EPSILON = 0.01;
     
     
-    
+    //run groups 128/4 next for all group sizes
     
     //array with initial cooperation value for a ndoe population of 10
     //used for tests
