@@ -7,7 +7,7 @@ are required. Key research can be found in dissertation's references.
 
 The software package, as is, provides the following functions:
 
-1. A utility library enabling users to quickly construct and evaluate desird scenarios.
+1. A utility library enabling users to quickly construct and evaluate desired scenarios.
 
 2. A Node object, designed to mimmick various cognitive abilities of real life organisms, to varying degrees, as well as the ability to use different game theoretical models to simulate interactions.
 
